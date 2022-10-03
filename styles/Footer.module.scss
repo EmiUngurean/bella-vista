@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background-color: #283a5e;
+  color: white;
+
+  &__box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  &__bigBox {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  &__smallBox {
+    position: absolute;
+    height: 130px;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .footer {
+    &__box {
+      width: 100%;
+    }
+    &__smallBox {
+      margin-top: 10%;
+    }
+  }
+}

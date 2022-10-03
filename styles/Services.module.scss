@@ -1,0 +1,72 @@
+.container {
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+  &__small {
+    color: #00d690;
+    font-size: 22px;
+  }
+  &__title {
+    font-size: 50px;
+    font-family: "Quicksand", sans-serif;
+    color: #283a5e;
+    margin-bottom: 50px;
+  }
+  &__content {
+    width: 450px;
+    height: 500px;
+    border: 1px solid #e7e6e6;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    &__style {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    &__icon {
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &__design {
+        width: 150px;
+        height: 150px;
+        border: 1px solid #d1d0d0;
+        border-radius: 50%;
+        &__photo {
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          box-shadow: #00d690 0px 0px 50px;
+          object-fit: cover;
+        }
+      }
+    }
+    &__description {
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: #283a5e;
+
+      &__desc {
+        width: 80%;
+        text-align: center;
+        font-size: 22px;
+        line-height: 1.7em;
+        color: #687693;
+      }
+    }
+  }
+  &__video {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+  }
+}
+
+.p-image-preview-indicator:hover {
+  background-color: transparent;
+}

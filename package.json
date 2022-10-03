@@ -10,8 +10,12 @@
   },
   "dependencies": {
     "next": "12.3.0",
+    "primeicons": "^5.0.0",
+    "primereact": "^8.5.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-rnd": "^10.3.7",
+    "sass": "^1.54.9"
   },
   "devDependencies": {
     "eslint": "8.23.1",

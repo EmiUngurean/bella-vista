@@ -1,0 +1,24 @@
+.container {
+  height: 85vh;
+  border: 3px solid rgb(206, 205, 205);
+  margin: 10px;
+  &__tabs {
+    height: 15vh;
+    border-bottom: 3px solid rgb(172, 170, 170);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &_images {
+      cursor: pointer;
+    }
+  }
+  &__buttons {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  &__content {
+    height: 70vh;
+    border: 1px outset red;
+  }
+}
