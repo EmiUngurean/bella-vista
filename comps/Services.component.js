@@ -52,7 +52,6 @@ const Services = () => {
             <div className={styles.container__content__icon}>
               <div className={styles.container__content__icon__design}>
                 <Image
-                  className="hey"
                   src={item.image}
                   imageClassName={
                     styles.container__content__icon__design__photo

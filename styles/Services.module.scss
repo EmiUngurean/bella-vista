@@ -34,6 +34,9 @@
         height: 150px;
         border: 1px solid #d1d0d0;
         border-radius: 50%;
+        &:hover {
+          background-color: red;
+        }
         &__photo {
           width: 150px;
           height: 150px;
@@ -65,8 +68,4 @@
     margin-bottom: 100px;
     width: 100%;
   }
-}
-
-.p-image-preview-indicator:hover {
-  background-color: transparent;
 }
